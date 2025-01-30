@@ -1,13 +1,13 @@
 class Engine {
-  final double baseEngineSize;
-  final double horsePower;
-  final double valueTiming;
-  final double cylinders;
+  final String? baseEngineSize;
+  final String? horsePower;
+  final String? valveTiming;
+  final String? cylinders;
 
   Engine({
     required this.baseEngineSize,
     required this.horsePower,
-    required this.valueTiming,
+    required this.valveTiming,
     required this.cylinders,
   });
 }

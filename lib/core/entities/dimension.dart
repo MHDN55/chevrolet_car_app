@@ -1,16 +1,14 @@
 class Dimension {
-  final String image;
-  final double length;
-  final double height;
-  final double weelbase;
-  final double? turningCircle;
-  final double groundClearance;
+  final String? length;
+  final String? height;
+  final String? wheelbase;
+  final String? turningCircle;
+  final String? groundClearance;
 
   Dimension({
-    required this.image,
     required this.length,
     required this.height,
-    required this.weelbase,
+    required this.wheelbase,
     required this.turningCircle,
     required this.groundClearance,
   });
